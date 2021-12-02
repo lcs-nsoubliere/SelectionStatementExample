@@ -8,9 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    //MARK: Stored Properties
+    //The currenet guess
+    @State  var currentGuess: Double = 50.0
+    
+    //MARK: Computed Properties
     var body: some View {
         VStack{
-            Slider(value: .constant(61.0),
+            Slider(value: $currentGuess,
                    in: 0.0...100.0,
                    step: 1.0,
                    label: {
@@ -23,7 +29,7 @@ struct ContentView: View {
                    maximumValueLabel: {
                 Text("100")
             })
-            Text("61")
+            Text("\(String(format: "%.0f", currentGuess))")
                 .font(.largeTitle)
                 .bold()
             
@@ -31,10 +37,10 @@ struct ContentView: View {
                 // NOTE: Output will not be shown unless this app is run in the "full" simulator
                 print("Button was pressed")
             }, label: {
-                Text("Press me")
+                Text("Submit Guess")
             })
                 .buttonStyle(.bordered)
-            Spacer()
+            
         }
         .navigationTitle("Guessing Game")
     }
