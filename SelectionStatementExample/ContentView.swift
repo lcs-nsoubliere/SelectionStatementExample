@@ -19,7 +19,7 @@ struct ContentView: View {
     let target = Int.random(in:1...100)
     
     //the feedback to the user as they play
-    @State var feedback == string
+    @State var feedback = ""
     
     
     

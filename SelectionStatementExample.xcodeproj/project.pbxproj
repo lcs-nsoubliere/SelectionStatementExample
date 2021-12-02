@@ -11,6 +11,7 @@
 		C8C43D1327590AE900D443DC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C43D1227590AE900D443DC /* ContentView.swift */; };
 		C8C43D1527590AF000D443DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8C43D1427590AF000D443DC /* Assets.xcassets */; };
 		C8C43D1827590AF000D443DC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8C43D1727590AF000D443DC /* Preview Assets.xcassets */; };
+		C8C43D1F2759165900D443DC /* TempatureConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C43D1E2759165900D443DC /* TempatureConverter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		C8C43D1227590AE900D443DC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C8C43D1427590AF000D443DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C8C43D1727590AF000D443DC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C8C43D1E2759165900D443DC /* TempatureConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempatureConverter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				C8C43D1027590AE900D443DC /* SelectionStatementExampleApp.swift */,
 				C8C43D1227590AE900D443DC /* ContentView.swift */,
+				C8C43D1E2759165900D443DC /* TempatureConverter.swift */,
 				C8C43D1427590AF000D443DC /* Assets.xcassets */,
 				C8C43D1627590AF000D443DC /* Preview Content */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C8C43D1327590AE900D443DC /* ContentView.swift in Sources */,
+				C8C43D1F2759165900D443DC /* TempatureConverter.swift in Sources */,
 				C8C43D1127590AE900D443DC /* SelectionStatementExampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
